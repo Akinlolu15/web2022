@@ -15,7 +15,7 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   height: 3.5rem;
   background-color: #009fd4ff;
-  color: #fff;
+  color: #000;
   font-size: 1rem;
 
 }
