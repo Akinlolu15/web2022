@@ -13,9 +13,11 @@ body {
 header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-items: end;
   height: 3.5rem;
+  padding-top: 0.9rem;
   background-color: #009fd4ff;
-  color: #000;
+  color: #fff;
   font-size: 1rem;
 
 }
