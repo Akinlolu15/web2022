@@ -11,19 +11,20 @@ body {
 }
 
 header {
-  display: grid;
+/*  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justify-items: end;
   height: 2.5rem;
   padding-top: 0.9rem;
+  font-size: 2rem;*/
   background-color: #009fd4ff;
   color: #fff;
-  font-size: 2rem;
+
 
 }
 
 header img {
-  height: 20%;
+  height: 10%;
 }
 
 nav {
