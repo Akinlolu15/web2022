@@ -11,14 +11,16 @@ body {
 }
 
 header {
-/*  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-items: end;
-  height: 2.5rem;
-  padding-top: 0.9rem;
-  font-size: 2rem;*/
+
   background-color: #009fd4ff;
   color: #fff;
+}
+
+section{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+      grid-auto-rows: minmax(200px, auto);
 
 
 }
