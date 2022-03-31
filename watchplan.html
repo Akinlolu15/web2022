@@ -7,49 +7,11 @@
     <title>WATCH WITH AK</title>
     <style>
     .image-style {
-      border:10px 10px solid #082974;
+      border:10px 10px solid #e75680;
       box-shadow: 10px 10px;
     }
 
     </style>
-
-    <style>
-
-     table {
-       border-collapse: collapse;
-     }
-
-     caption {
-       font-size: 1.5rem;
-       text-transform: uppercase;
-       text-shadow: 3px 3px 4px black;
-       padding: 5px;
-       background-color: black;
-       color: white;
-     }
-
-     thead, tfoot {
-       background-color: #082974;
-       color: white;
-       font-weight: bold;
-       border-top: 1px solid black;
-       border-bottom: 1px solid black;
-     }
-
-     th, td {
-       padding: 5px 10px;
-     }
-
-     .center {
-       text-align: center;
-     }
-
-     .rowhover:hover {
-       background-color: red;
-       color: white;
-     }
-
-   </style>
   </head>
 
 <body>
@@ -71,11 +33,11 @@
 
     <div class="wrapper">
 
-  <section id="primary">
+    <section id="primary">
 
     <article id="main_article">
+      <h2> ABOUT ME</h2>
 
-    
       <table>
       <caption>Shows I plan On Watching </caption>
       <thead>
@@ -121,15 +83,19 @@
 
     </table>
 
-  </article>
+  
 
+    <form action="scripts/action.php" method="post">
+         <label for="thoughts">What shows do you recomend ?</label>
+         <textarea name="thoughts" id="thoughts" rows="5" cols="100">Enter here:</textarea>
+       </form>
+
+  </article>
 
 
   <figure id="main_fig">
             <img
-            class="image-style"
-            srcset="images/puzzle-252w.png 252w"
-            sizes="(max-width: 504px) 252px, 504px"
+
             src="images/DS.jpg"
             alt="Image of one of AKs Liked shows."
             title="Image of one of AKs Liked shows.">
