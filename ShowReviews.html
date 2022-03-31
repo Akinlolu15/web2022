@@ -12,39 +12,38 @@
     }
 
     table {
-        border-collapse: collapse;
-      }
+            border-collapse: collapse;
+          }
 
-      caption {
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        text-shadow: 3px 3px 4px black;
-        padding: 5px;
-        background-color: black;
-        color: white;
-      }
+          caption {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 4px black;
+            padding: 5px;
+            background-color: black;
+            color: white;
+          }
 
-      thead, tfoot {
-        background-color: #082974;
-        color: white;
-        font-weight: bold;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-      }
+          thead, tfoot {
+            background-color: #082974;
+            color: white;
+            font-weight: bold;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+          }
 
-      th, td {
-        padding: 5px 10px;
-      }
+          th, td {
+            padding: 5px 10px;
+          }
 
-      .center {
-        text-align: center;
-      }
+          .center {
+            text-align: center;
+          }
 
-      .rowhover:hover {
-        background-color: red;
-        color: white;
-      }
-
+          .rowhover:hover {
+            background-color: red;
+            color: white;
+          }
     </style>
   </head>
 
@@ -60,8 +59,8 @@
 
     <nav>
       <ul>
+        <li><a href="ShowReviews.html">Show reviews</a></li>
         <li><a href="WatchPlan.html">Watch Plan</a></li>
-        <li><a href="ShowReviews.html">Show Reviews</a></li>
       </ul>
     </nav>
 
@@ -70,7 +69,7 @@
     <section id="primary">
 
     <article id="main_article">
-
+      <h2> ABOUT ME</h2>
 
       <table>
       <caption>Shows I plan On Watching </caption>
@@ -117,11 +116,12 @@
 
     </table>
 
-    <h4>List Updated Frequently</h4>
 
 
-
-
+    <form action="scripts/action.php" method="post">
+         <label for="thoughts">What shows do you recomend ?</label>
+         <textarea name="thoughts" id="thoughts" rows="5" cols="100">Enter here:</textarea>
+       </form>
 
   </article>
 
